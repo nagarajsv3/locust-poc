@@ -11,3 +11,10 @@ C:\Users\bhata\Pythonprojects\locust\.venvloc\Scripts>activate
 Create Class extending HttpUser
 Create tasks
 locust -f locust.py --host http://localhost:8080 --users 2 --spawn-rate 10
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nagarajsv3/locust-poc.git
+git push -u origin main
